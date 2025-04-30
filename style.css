@@ -1,0 +1,170 @@
+body{
+
+    background-image: url(images/grey_background.png);
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center;
+}
+
+.logo{
+    border: 16px;
+}
+
+
+h1{
+
+    font-family: monospace;
+}
+.header{
+
+    display: flex;
+    justify-content:space-between;
+    text-decoration: underline 5px;
+    border-bottom: 1px solid burlywood;
+    position: fixed;
+    width: 98vw;
+    background-color: rgba(0, 0, 0, 0.13);
+    
+}
+
+.largerFont{
+    font-family: monospace;
+    font-size: xx-large;
+    color: rgb(81, 62, 223);
+
+}
+.largerFont:hover{
+    
+    background-color: rgb(234, 14, 161);
+    width: fit-content;
+    transition: all 0.5s;
+    
+}
+
+
+.links{
+
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    align-items: baseline;
+    font-family: monospace;
+}
+
+ .div{
+
+    border-radius: 300px;
+ }
+
+.cars{
+
+    margin-top: 100px;
+}
+
+.car1 img{
+
+    border-radius: 30px;
+    border: solid rgb(81, 62, 223) 10px;
+    }
+
+ul img{
+    height: 16px;
+}
+
+.paragraphs{
+
+    border: 5px rgb(81, 62, 223) solid;
+    color: azure;
+    font-size: x-large;
+    border-radius: 15%;
+    padding: 40px;
+    
+    
+}
+
+li:hover{
+
+    background-color: rgb(234, 14, 161);
+    transform: scale(1.1);
+    width: fit-content;
+    transition: all 0.5s;
+}
+
+h2{
+
+    font-size: 50px;
+    width: fit-content;
+    padding-left: 20px;
+    transition: all 0.5s;
+}
+h2:hover{
+
+    color: rgb(81, 62, 223);
+    transform: scale(1.1);
+}
+
+.elBlue{
+
+    font-family: monospace;
+    color: rgb(81, 62, 223);
+    
+}
+
+.blue:hover{
+
+    color: rgb(174, 167, 223);
+}
+
+a{
+    color: black;
+}
+
+.pinky{
+    font-family: monospace;
+    color: rgb(234, 14, 161);
+}
+
+.car3{
+   
+    
+}
+
+.pinky:hover{
+
+    color: rgb(234, 14, 161);
+    
+}
+
+h3{
+
+    font-size: 50px;
+    width: fit-content;
+    padding-left: 20px;
+    transition: all 0.5s;
+}
+
+h3:hover{
+
+    color: rgb(81, 62, 223);
+    transform: scale(1.1);
+}
+
+.p3{
+    font-family: monospace;
+    font-size: 25px;
+    color: rgb(234, 14, 161);
+
+}
+
+div.footer ul{
+
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-between;
+    font-family: monospace;
+    font-size: 25px;
+    color: rgb(205, 202, 225);
+    text-decoration: underline;
+
+}
